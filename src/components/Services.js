@@ -3,7 +3,8 @@ import { Container, Card } from 'react-bootstrap';
 
 const Services = () => {
   return (
-    <Container className='mt-5'>
+    <Container>
+      <Card body className='card-container text-light bg-black mb-4'>
       <h1>Our Services</h1>
         <Card>
           <Card.Body>
@@ -30,6 +31,7 @@ const Services = () => {
           </Card.Body>
         </Card>
         {/* Add more Card components for additional services */}
+        </Card>
     </Container>
   );
 };

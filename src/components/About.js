@@ -1,9 +1,10 @@
 import React from 'react';
-import { Container, Row, Col, Image } from 'react-bootstrap';
+import { Container, Row, Col, Image, Card } from 'react-bootstrap';
 
 const About = () => {
   return (
-    <Container className='mt-5'>
+    <Container>
+      <Card body className='card-container text-light bg-black mb-4'>
       <h1>About Us</h1>
       <Row>
         <Col md={6}>
@@ -25,6 +26,7 @@ const About = () => {
           </p>
         </Col>
       </Row>
+      </Card>
     </Container>
   );
 };

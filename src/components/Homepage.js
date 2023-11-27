@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Row, Col, Button } from 'react-bootstrap';
+import { Container, Row, Col, Button, Card } from 'react-bootstrap';
 import HomeCarousel from './Carousel.js';
 
 const Homepage = () => {
@@ -7,16 +7,19 @@ const Homepage = () => {
     <div>
       <Container>
       <HomeCarousel />
+      <Card body className='card-container text-light bg-black mb-4'>
         <h1>Welcome to My Website</h1>
         <p>
           This is a simple React homepage using Bootstrap for styling.
         </p>
         <p>
-          <Button variant="primary">Learn more</Button>
+          <Button variant="outline-light">Learn more</Button>
         </p>
+        </Card>
       </Container>
 
       <Container>
+      <Card body className='card-container text-light bg-black mb-4'>
         <Row>
           <Col>
             <h2>About</h2>
@@ -31,6 +34,7 @@ const Homepage = () => {
             <p>Include contact information or a contact form.</p>
           </Col>
         </Row>
+        </Card>
       </Container>
     </div>
   );

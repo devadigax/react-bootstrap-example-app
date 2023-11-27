@@ -2,10 +2,11 @@ import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 
 const Footer = () => {
+  
   return (
-    <div className="footer-container">
-    <footer className="container footer text-light mt-5">
-      <Container>
+    <Container>
+    <footer className="footer text-light shadow-lg d-none d-sm-block">
+      
         <Row>
           <Col md={6}>
             <h4>About Us</h4>
@@ -21,13 +22,13 @@ const Footer = () => {
             <p>Phone: +1234567890</p>
           </Col>
         </Row>
-      </Container>
+      
       <div className="text-center">
         <hr></hr>
         <p>&copy; 2023 YourWebsite. All Rights Reserved.</p>
       </div>
     </footer>
-    </div>
+    </Container>
   );
 };
 

@@ -9,35 +9,35 @@ function HomeCarousel() {
   return (
     <Carousel className='mb-4'>
       <Carousel.Item>
-        <img className="carousel d-block w-100" src={Art1} alt="First slide" />
+        <img className="card-container d-block w-100" src={Art1} alt="First slide" />
         <Carousel.Caption>
           <h3>First slide label</h3>
           <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-        <img className="carousel d-block w-100" src={Art2} alt="Second slide" />
+        <img className="card-container d-block w-100" src={Art2} alt="Second slide" />
         <Carousel.Caption>
           <h3>Second slide label</h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-        <img className="carousel d-block w-100" src={Art3} alt="Third slide" />
+        <img className="card-container d-block w-100" src={Art3} alt="Third slide" />
         <Carousel.Caption>
           <h3>Third slide label</h3>
           <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-        <img className="carousel d-block w-100" src={Art4} alt="4 slide" />
+        <img className="card-container d-block w-100" src={Art4} alt="4 slide" />
         <Carousel.Caption>
           <h3>4 slide label</h3>
           <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-        <img className="carousel d-block w-100" src={Art5} alt="5 slide" />
+        <img className="card-container d-block w-100" src={Art5} alt="5 slide" />
         <Carousel.Caption>
           <h3>5 slide label</h3>
           <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>

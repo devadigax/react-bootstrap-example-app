@@ -19,7 +19,8 @@ const Team = () => {
   ];
 
   return (
-    <Container className='mt-5'>
+    <Container>
+      <Card body className='card-container text-light bg-black mb-4'>
       <h1>Our Team</h1>
       <Row>
         {teamMembers.map((member) => (
@@ -34,6 +35,7 @@ const Team = () => {
           </Col>
         ))}
       </Row>
+      </Card>
     </Container>
   );
 };
