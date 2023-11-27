@@ -9,4 +9,22 @@ The **react-bootstrap-example-app** serves as a comprehensive demonstration of i
 - **UI Customization:** Examples of customizing and extending Bootstrap components in a React context.
 - **Navigation and Interactivity:** Exhibits navigation menus, interactive elements, and form handling using React alongside Bootstrap components.
 
+# Screenshots
+
+## Home
+![Home](screenshots/Home.png)
+
+## About
+![About](screenshots/About.png)
+
+## Team
+![Team](screenshots/Team.png)
+
+## Services
+![Services](screenshots/Services.png)
+
+## Contact
+![Contact](screenshots/Contact.png)
+
+
 This example app provides developers with a starting point to understand and implement Bootstrap-based UI elements efficiently within their React projects.
