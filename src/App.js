@@ -10,15 +10,15 @@ import Team from './components/Team.js';
 import Services from './components/Services.js';
 import ContactUs from './components/ContactUs.js';
 import Footer from './components/Footer.js';
-import BottomNavbar from './components/BottomNavbar.js';
-import DarkSearchBox from './components/DarkSearchBox.js';
+import BottomNavbar from './components/mobile/BottomNavbar.js';
+import MobileHeader from './components/mobile/MobileHeader.js';
 
 function App() {
   return (
     <Router>
     <div className="App">
         <MyNavbar />
-        <DarkSearchBox />
+        <MobileHeader />
         <Routes>
           <Route exact path="/" element={<Home />} />
           <Route path="/about" element={<About />} />

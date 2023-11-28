@@ -15,22 +15,30 @@ const Team = () => {
       position: 'CTO',
       image: 'https://via.placeholder.com/150',
     },
+    {
+      id: 3,
+      name: 'Walter White',
+      position: 'CMO',
+      image: 'https://via.placeholder.com/150',
+    },
     // Add more team members as needed
   ];
 
   return (
     <Container>
       <Card body className='card-container text-light bg-black mb-4'>
-      <h1>Our Team</h1>
-      <Row>
+      <h1 className="text-center mt-4 mb-4">Our Team</h1>
+      <Row xs={1} md={2} lg={3} className="g-4">
         {teamMembers.map((member) => (
-          <Col key={member.id} md={4}>
-            <Card className="mb-4">
+          <Col key={member.id}>
+            <Card className="position-relative">
               <Card.Img variant="top" src={member.image} alt={member.name} />
-              <Card.Body>
-                <Card.Title>{member.name}</Card.Title>
-                <Card.Text>{member.position}</Card.Text>
-              </Card.Body>
+              <div className="card-overlay">
+                <Card.Body className="text-light">
+                  <Card.Title>{member.name}</Card.Title>
+                  <Card.Text>{member.position}</Card.Text>
+                </Card.Body>
+              </div>
             </Card>
           </Col>
         ))}

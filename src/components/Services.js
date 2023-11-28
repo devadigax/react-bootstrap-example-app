@@ -5,8 +5,8 @@ const Services = () => {
   return (
     <Container>
       <Card body className='card-container text-light bg-black mb-4'>
-      <h1>Our Services</h1>
-        <Card>
+      <h1 className="text-center mt-4 mb-4">Our Services</h1>
+        <Card className='bg-secondary text-light mb-4'>
           <Card.Body>
             <Card.Title>Service 1</Card.Title>
             <Card.Text>
@@ -14,7 +14,7 @@ const Services = () => {
             </Card.Text>
           </Card.Body>
         </Card>
-        <Card>
+        <Card className='bg-secondary text-light mb-4'>
           <Card.Body>
             <Card.Title>Service 2</Card.Title>
             <Card.Text>
@@ -22,7 +22,7 @@ const Services = () => {
             </Card.Text>
           </Card.Body>
         </Card>
-        <Card>
+        <Card className='bg-secondary text-light mb-4'>
           <Card.Body>
             <Card.Title>Service 3</Card.Title>
             <Card.Text>
