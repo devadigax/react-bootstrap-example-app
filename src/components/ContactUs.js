@@ -14,16 +14,12 @@ const ContactUs = () => {
 
   return (
     <Container className='mb-4'>
-      <Card body className='card-container text-light bg-black'>
+      <Card body className='radius-15 text-light bg-black'>
         <Row>
           <Col sm={6}>
-          <h4>Contact Information</h4>
-            <p>123 Street Name, City, Country</p>
-            <p>Email: example@example.com</p>
-            <p>Phone: +1234567890</p>
           </Col>
           <Col sm={6}>
-            <Card body className='bg-dark text-light'>
+            <Card body className='radius-15 bg-dark text-light'>
               <h1>Contact Us</h1>
               <Form onSubmit={handleSubmit}>
                 <FloatingLabel controlId="formName" label="Name">

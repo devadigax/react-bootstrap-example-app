@@ -7,7 +7,7 @@ const Homepage = () => {
     <div>
       <Container>
       <HomeCarousel />
-      <Card body className='card-container text-light bg-black mb-4'>
+      <Card body className='radius-15 text-light bg-black mb-4'>
         <h1>Welcome to My Website</h1>
         <p>
           This is a simple React homepage using Bootstrap for styling.
@@ -19,7 +19,7 @@ const Homepage = () => {
       </Container>
 
       <Container>
-      <Card body className='card-container text-light bg-black mb-4'>
+      <Card body className='radius-15 text-light bg-black mb-4'>
         <Row>
           <Col>
             <h2>About</h2>

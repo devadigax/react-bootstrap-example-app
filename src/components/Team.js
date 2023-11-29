@@ -26,14 +26,14 @@ const Team = () => {
 
   return (
     <Container>
-      <Card body className='card-container text-light bg-black mb-4'>
+      <Card body className='radius-15 text-light bg-black mb-4'>
       <h1 className="text-center mt-4 mb-4">Our Team</h1>
       <Row xs={1} md={2} lg={3} className="g-4">
         {teamMembers.map((member) => (
           <Col key={member.id}>
-            <Card className="position-relative">
-              <Card.Img variant="top" src={member.image} alt={member.name} />
-              <div className="card-overlay">
+            <Card className="profile-card">
+              <Card.Img variant="top" className="profile-image" src={member.image} alt={member.name} />
+              <div>
                 <Card.Body className="text-light">
                   <Card.Title>{member.name}</Card.Title>
                   <Card.Text>{member.position}</Card.Text>

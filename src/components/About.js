@@ -4,11 +4,11 @@ import { Container, Row, Col, Image, Card } from 'react-bootstrap';
 const About = () => {
   return (
     <Container>
-      <Card body className='card-container text-light bg-black mb-4'>
+      <Card body className='radius-15 text-light bg-black mb-4'>
       <h1 className="text-center mt-4 mb-4">About Us</h1>
       <Row>
         <Col md={6}>
-          <Image src="https://via.placeholder.com/400" alt="About Us" fluid />
+          <Image src="https://via.placeholder.com/400" className='radius-15 w-100' alt="About Us" fluid />
         </Col>
         <Col md={6}>
           <p>

@@ -4,7 +4,7 @@ import { Container, Card } from 'react-bootstrap';
 const Services = () => {
   return (
     <Container>
-      <Card body className='card-container text-light bg-black mb-4'>
+      <Card body className='radius-15 text-light bg-black mb-4'>
       <h1 className="text-center mt-4 mb-4">Our Services</h1>
         <Card className='bg-secondary text-light mb-4'>
           <Card.Body>

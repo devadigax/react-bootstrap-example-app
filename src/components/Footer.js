@@ -1,12 +1,11 @@
 import React from 'react';
-import { Container, Row, Col } from 'react-bootstrap';
+import { Container, Row, Col, Card } from 'react-bootstrap';
 
 const Footer = () => {
   
   return (
     <Container>
-    <footer className="footer text-light shadow-lg d-none d-sm-block">
-      
+    <Card body className='radius-15 text-light bg-black mb-4 shadow-lg d-none d-sm-block'>
         <Row>
           <Col md={6}>
             <h4>About Us</h4>
@@ -22,12 +21,11 @@ const Footer = () => {
             <p>Phone: +1234567890</p>
           </Col>
         </Row>
-      
-      <div className="text-center">
         <hr></hr>
+      <div className="text-center">
         <p>&copy; 2023 YourWebsite. All Rights Reserved.</p>
       </div>
-    </footer>
+      </Card>
     </Container>
   );
 };
